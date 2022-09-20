@@ -1,0 +1,21 @@
+X wins main sample inputs
+
+1. X0XX00XX0 -> vertical 1
+2. 0XXXX00X0 -> vertical 2
+3. 00X0XXX0X -> vertical 3
+4. XXXX000X0 -> horizontal 1
+5. X00XXX00X -> horizontal 2
+6. X0000XXXX -> horizontal 3
+7. X0X0XXX00 -> diagonal 1
+8. X000XX0XX -> diagonal 2
+
+O wins main sample inputs
+
+1. 0X00XX00X -> vertical 1
+2. X0000XX0X -> vertical 2
+3. XX0X000X0 -> vertical 3
+4. 0000XXX0X -> horizontal 1
+5. 0XX000XX0 -> horizontal 2
+6. 0XXXX0000 -> horizontal 3
+7. 0X0X000XX -> diagonal 1
+8. 0XXX00X00 -> diagonal 2
