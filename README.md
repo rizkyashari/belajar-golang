@@ -1,3 +1,3 @@
 # belajar-golang
 
-Credit to: Dasar Pemrograman Golang (novalagung)
+Kumpulan kode bahasa pemrograman Golang.
