@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"warmintan-1/chef"
 	"warmintan-1/warehouse"
 )
 
@@ -18,6 +19,9 @@ func main() {
 		// chef.GetStockFromWaiter()
 		warehouse.GetStockFromChef("")
 
+	} else if init == 2 {
+		// waiter.TakeOrder("")
+		chef.GetOrderFromWaiter("")
 	}
 
 }
