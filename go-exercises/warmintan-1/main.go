@@ -2,8 +2,6 @@ package main
 
 import (
 	"fmt"
-	"warmintan-1/chef"
-	"warmintan-1/waiter"
 	"warmintan-1/warehouse"
 )
 
@@ -16,9 +14,9 @@ func main() {
 	fmt.Scanln(&init)
 
 	if init == 1 {
-		waiter.AddStock()
-		chef.GetStockFromWaiter()
-		warehouse.GetStockFromChef()
+		// waiter.AddStock()
+		// chef.GetStockFromWaiter()
+		warehouse.GetStockFromChef("")
 
 	}
 

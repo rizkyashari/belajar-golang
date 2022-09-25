@@ -5,9 +5,10 @@ import (
 	"warmintan-1/chef"
 )
 
-func GetStockFromChef() {
-	stockfc := chef.GetStockFromWaiter()
+func GetStockFromChef(stock string) map[string]string {
+	stockfc := chef.GetStockFromWaiter(stock)
 	v := stockfc[""]
-	fmt.Println(v, "is received by Warehouse")
+	fmt.Println("Third,", v, "is put in Warehouse")
 	// fmt.Println("Warehouse has received stock from Chef")
+	return stockfc
 }

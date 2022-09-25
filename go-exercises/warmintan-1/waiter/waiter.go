@@ -4,9 +4,13 @@ import (
 	"fmt"
 )
 
-func AddStock() map[string]string {
+type Waiter struct {
+	Stock map[string]string
+}
 
-	var stock string
+func AddStock(stock string) map[string]string {
+
+	// var stock string
 	fmt.Println("Please add stock: ")
 	fmt.Scanln(&stock)
 
@@ -14,7 +18,7 @@ func AddStock() map[string]string {
 
 	stock1[""] = stock
 	v := stock1[""]
-	fmt.Println(v, "is received by Waiter")
+	fmt.Println("First,", v, "is received by Waiter")
 	// fmt.Print(stock1, "\n")
 
 	// if v != "" {

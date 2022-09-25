@@ -5,10 +5,10 @@ import (
 	"warmintan-1/waiter"
 )
 
-func GetStockFromWaiter() map[string]string {
-	stockfw := waiter.AddStock()
+func GetStockFromWaiter(stock string) map[string]string {
+	stockfw := waiter.AddStock(stock)
 	v := stockfw[""]
-	fmt.Println(v, "is received by Chef")
+	fmt.Println("Second,", v, "is received by Chef")
 
 	// if v != "" {
 	// 	warehouse.GetStockFromChef()
