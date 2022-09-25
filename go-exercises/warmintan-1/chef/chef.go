@@ -16,3 +16,11 @@ func GetStockFromWaiter(stock string) map[string]string {
 
 	return stockfw
 }
+
+func GetOrderFromWaiter(order string) map[string]string {
+	orderfw := waiter.TakeOrder(order)
+	v := orderfw[""]
+	fmt.Println("Second,", v, "order is received by Chef.\nChef is cooking", v, ".")
+
+	return orderfw
+}

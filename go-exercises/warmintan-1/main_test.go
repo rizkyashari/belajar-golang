@@ -18,6 +18,7 @@ func TestGetStockFromWaiter(t *testing.T) {
 	v := chef.GetStockFromWaiter("Mie")
 	assert.Equal(t, v, map[string]string{"": "Mie"})
 }
+
 func TestGetStockFromChef(t *testing.T) {
 	v := warehouse.GetStockFromChef("Mie")
 	assert.Equal(t, v, map[string]string{"": "Mie"})
